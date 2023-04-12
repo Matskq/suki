@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "suki",
+    "version": "0.0.1",
+    "description": "sukiカスタムタブ",
+    "icons": {
+        "48": "img/icon.svg",
+        "96": "img/icon.svg"
+    },
+    "developer": {
+        "name": "Matskq",
+        "url": "https://github.com/Matskq"
+    },
+    "chrome_settings_overrides": { },
+    "chrome_url_overrides" : {
+        "newtab": "html/index.html"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
