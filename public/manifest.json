@@ -4,8 +4,8 @@
     "version": "0.0.1",
     "description": "sukiカスタムタブ",
     "icons": {
-        "48": "img/icon.svg",
-        "96": "img/icon.svg"
+        "48": "icon.svg",
+        "96": "icon.svg"
     },
     "developer": {
         "name": "Matskq",
@@ -13,7 +13,7 @@
     },
     "chrome_settings_overrides": { },
     "chrome_url_overrides" : {
-        "newtab": "html/index.html"
+        "newtab": "index.html"
     },
     "permissions": [
         "tabs"
